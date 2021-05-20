@@ -2,7 +2,7 @@
 
 - Create a conda environment
 - Run `pip install -r requirements.txt`
-  
+
 #### Installing Gurobi for Pyomo:
 - Run `conda install -c gurobi gurobi`
 
@@ -15,3 +15,5 @@ Here are the most important hints to install SCIP for Pyomo:
 # Running the calculations
 You can just run `run_algorithms.py` to perform all the calculations. We suggest to use `PyCharm`.
 
+#### The preprint
+The derivation and theoretical analysis of the algorithm can be found in the preprint at http://www.optimization-online.org/DB_HTML/2018/04/6594.html.
