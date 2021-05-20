@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -->
+<!--                                                                                   -->
+<!--                  This file is part of the BMWi project 0328006                    -->
+<!--                      Technical Capacities of Gas Networks                         -->
+<!--                                                                                   -->
+<!-- Copyright (C) 2013                                                                -->
+<!-- FAU Erlangen-Nuremberg, HU Berlin, LU Hannover, TU Darmstadt,                     -->
+<!-- University Duisburg-Essen, WIAS Berlin, Zuse Institute Berlin                     -->
+<!-- Contact: Thorsten Koch (koch@zib.de)                                              -->
+<!-- All rights reserved.                                                              -->
+<!--                                                                                   -->
+<!-- This work is licensed under the Creative Commons Attribution 3.0 Unported License.-->
+<!-- To view a copy of this license, visit http://creativecommons.org/licenses/by/3.0/ -->
+<!-- or send a letter to Creative Commons, 444 Castro Street, Suite 900, Mountain View,-->
+<!-- California, 94041, USA.                                                           -->
+<!--                                                                                   -->
+<!--                         Please note that you have to cite                         -->
+<!-- Pfetsch et al. (2012) "Validation of Nominations in Gas Network Optimization:     -->
+<!-- Models, Methods, and Solutions", ZIB-Report 12-41                                 -->
+<!--                               if you use this data                                -->
+<!--                                                                                   -->
+<!-- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -->
+
+<network xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xmlns="http://gaslib.zib.de/Gas"
+         xsi:schemaLocation="http://gaslib.zib.de/Gas Gas.xsd"
+         xmlns:framework="http://gaslib.zib.de/Framework">
+  <framework:information>
+    <framework:title>GasLib_4</framework:title>
+    <framework:type>gas</framework:type>
+    <framework:date>2021-03-04</framework:date>
+    <framework:documentation>Network used in the paper "The Cost of Not Knowing Enough: Mixed-Integer Optimization with Implicit Lipschitz Nonlinearities</framework:documentation>
+  </framework:information>
+
+  <framework:nodes>
+    <source id="node_1" x="0" y="0">
+      <height value="0"/>
+      <pressureMin unit="bar" value="50.0"/>
+      <pressureMax unit="bar" value="50.0"/>
+      <flowMin unit="1000m_cube_per_hour" value="200.0"/>
+      <flowMax unit="1000m_cube_per_hour" value="200.0"/>
+      <gasTemperature unit="K" value="289.15"/>
+      <calorificValue unit="MJ_per_m_cube" value="36.4543670654"/>
+      <normDensity value="0.7433"/>
+      <coefficient-A-heatCapacity value="31.8251781464"/>
+      <coefficient-B-heatCapacity value="0.00846800766885"/>
+      <coefficient-C-heatCapacity value="7.44647331885e-05"/>
+      <molarMass unit="kg_per_kmol" value="16.62"/>
+      <pseudocriticalPressure unit="bar" value="46.0"/>
+      <pseudocriticalTemperature unit="K" value="193.08"/>
+    </source>
+    <innode id="node_3" x="150" y="100">
+      <height value="0"/>
+      <pressureMin unit="bar" value="50.0"/>
+      <pressureMax unit="bar" value="60.0"/>
+    </innode>
+    <innode id="node_2" x="100" y="0">
+      <height value="0"/>
+      <pressureMin unit="bar" value="50.0"/>
+      <pressureMax unit="bar" value="60.0"/>
+    </innode>
+    <sink id="node_4" x="300" y="0">
+      <height value="0"/>
+      <pressureMin unit="bar" value="50.0"/>
+      <pressureMax unit="bar" value="60.0"/>
+      <flowMin unit="1000m_cube_per_hour" value="200.0"/>
+      <flowMax unit="1000m_cube_per_hour" value="200.0"/>
+    </sink>
+  </framework:nodes>
+  <framework:connections>
+    <pipe alias="" from="node_3" id="pipe_1" to="node_2">
+      <flowMin unit="1000m_cube_per_hour" value="-200.0"/>
+      <flowMax unit="1000m_cube_per_hour" value="200.0"/>
+      <length unit="km" value="26.355"/>
+      <diameter unit="mm" value="609.6"/>
+      <roughness unit="m" value="8e-02"/>
+      <heatTransferCoefficient unit="W_per_m_square_per_K" value="2"/>
+    </pipe>
+    <pipe alias="" from="node_3" id="pipe_2" to="node_4">
+      <flowMin unit="1000m_cube_per_hour" value="-200.0"/>
+      <flowMax unit="1000m_cube_per_hour" value="200.0"/>
+      <length unit="km" value="26.355"/>
+      <diameter unit="mm" value="609.6"/>
+      <roughness unit="m" value="8e-02"/>
+      <heatTransferCoefficient unit="W_per_m_square_per_K" value="2"/>
+    </pipe>
+    <pipe alias="" from="node_2" id="pipe_3" to="node_4">
+      <flowMin unit="1000m_cube_per_hour" value="-200.0"/>
+      <flowMax unit="1000m_cube_per_hour" value="200.0"/>
+      <length unit="km" value="26.355"/>
+      <diameter unit="mm" value="609.6"/>
+      <roughness unit="m" value="8e-02"/>
+      <heatTransferCoefficient unit="W_per_m_square_per_K" value="2"/>
+    </pipe>
+    <compressorStation from="node_1" fuelGasVertex="node_2" id="cs" internalBypassRequired="0" to="node_3">
+	<flowMin unit="1000m_cube_per_hour" value="200.0"/>
+	<flowMax unit="1000m_cube_per_hour" value="200.0"/>
+	<pressureLossIn unit="bar" value="0.0"/>
+	<pressureLossOut unit="bar" value="0.0"/>
+	<pressureInMin unit="bar" value="1.01325"/>
+	<pressureOutMax unit="bar" value="100.0"/>
+      </compressorStation>
+  </framework:connections>
+</network>

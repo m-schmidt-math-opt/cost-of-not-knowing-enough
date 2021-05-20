@@ -1,0 +1,9 @@
+m_cube_per_hour = m ** 3 / hour = [volume] / [time]
+m_cube_per_second = m ** 3/ second = [volume] / [time]
+kg_per_hour = kg / hour = [mass] / [time]
+kg_per_second = kg / second = [mass] / [time]
+MJ_per_m_cube = MJ / (m ** 3) = [energy] / [mass]
+kg_per_m_cube = kg / (m ** 3) = [mass] / [volume]
+Celsius = degC
+kg_per_kmol = kg / kmol
+W_per_m_square_per_K = W / (m ** 2) / K

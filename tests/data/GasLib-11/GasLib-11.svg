@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="ISO-8859-1" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+ "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg width="411.939mm" height="216.711mm" 
+     viewBox="0 0 1167.7 614.3" 
+     xmlns="http://www.w3.org/2000/svg" version="1.1" >
+<desc>/home/sifumoxy/lamatto/src/data/Gas/data/lamatto_data/instationary2/GasLib-11/GasLib-11.svg, created with the Board library (Copyleft) 2007 Sebastien Fourey</desc>
+<line x1="0.1" y1="314.2" x2="200.1" y2="314.2" fill="none" stroke="rgb(0,0,0)" stroke-width="2.822mm" style="stroke-linecap:butt;stroke-linejoin:miter" />
+<line x1="400.1" y1="314.2" x2="600.1" y2="214.2" fill="none" stroke="rgb(0,0,0)" stroke-width="2.822mm" style="stroke-linecap:butt;stroke-linejoin:miter" />
+<line x1="600.1" y1="614.2" x2="600.1" y2="414.2" fill="none" stroke="rgb(0,0,0)" stroke-width="2.822mm" style="stroke-linecap:butt;stroke-linejoin:miter" />
+<line x1="600.1" y1="214.2" x2="600.1" y2="14.2" fill="none" stroke="rgb(0,0,0)" stroke-width="2.822mm" style="stroke-linecap:butt;stroke-linejoin:miter" />
+<line x1="600.1" y1="214.2" x2="800.1" y2="314.2" fill="none" stroke="rgb(0,0,0)" stroke-width="2.822mm" style="stroke-linecap:butt;stroke-linejoin:miter" />
+<line x1="600.1" y1="414.2" x2="800.1" y2="314.2" fill="none" stroke="rgb(0,0,0)" stroke-width="2.822mm" style="stroke-linecap:butt;stroke-linejoin:miter" />
+<line x1="1000.1" y1="314.2" x2="1141.1" y2="173.2" fill="none" stroke="rgb(0,0,0)" stroke-width="2.822mm" style="stroke-linecap:butt;stroke-linejoin:miter" />
+<g>
+<g>
+<rect x="100.3" y="308.4" width="52.8" height="5.6" fill="rgb(255,250,205)" stroke="rgb(255,250,205)" stroke-width="0mm" style="stroke-linecap:butt;stroke-linejoin:miter" />
+<text x="100.3" y="311.2"  font-family="Courier" font-size="4" fill="rgb(0,0,0)">pipe01_entry01_entry03</text>
+<text x="100.3" y="314"  font-family="Courier" font-size="4" fill="rgb(0,0,0)">Q=[-1100;1100]</text>
+</g>
+<g>
+<rect x="500.3" y="258.4" width="33.6" height="5.6" fill="rgb(255,250,205)" stroke="rgb(255,250,205)" stroke-width="0mm" style="stroke-linecap:butt;stroke-linejoin:miter" />
+<text x="500.3" y="261.2"  font-family="Courier" font-size="4" fill="rgb(0,0,0)">pipe02_N01_N02</text>
+<text x="500.3" y="264"  font-family="Courier" font-size="4" fill="rgb(0,0,0)">Q=[-1100;1100]</text>
+</g>
+<g>
+<rect x="600.3" y="508.4" width="43.2" height="5.6" fill="rgb(255,250,205)" stroke="rgb(255,250,205)" stroke-width="0mm" style="stroke-linecap:butt;stroke-linejoin:miter" />
+<text x="600.3" y="511.2"  font-family="Courier" font-size="4" fill="rgb(0,0,0)">pipe03_entry02_N03</text>
+<text x="600.3" y="514"  font-family="Courier" font-size="4" fill="rgb(0,0,0)">Q=[-1100;1100]</text>
+</g>
+<g>
+<rect x="600.3" y="108.4" width="40.8" height="5.6" fill="rgb(255,250,205)" stroke="rgb(255,250,205)" stroke-width="0mm" style="stroke-linecap:butt;stroke-linejoin:miter" />
+<text x="600.3" y="111.2"  font-family="Courier" font-size="4" fill="rgb(0,0,0)">pipe04_N02_exit01</text>
+<text x="600.3" y="114"  font-family="Courier" font-size="4" fill="rgb(0,0,0)">Q=[-1100;1100]</text>
+</g>
+<g>
+<rect x="700.3" y="258.4" width="33.6" height="5.6" fill="rgb(255,250,205)" stroke="rgb(255,250,205)" stroke-width="0mm" style="stroke-linecap:butt;stroke-linejoin:miter" />
+<text x="700.3" y="261.2"  font-family="Courier" font-size="4" fill="rgb(0,0,0)">pipe05_N02_N04</text>
+<text x="700.3" y="264"  font-family="Courier" font-size="4" fill="rgb(0,0,0)">Q=[-1100;1100]</text>
+</g>
+<g>
+<rect x="700.3" y="358.4" width="33.6" height="5.6" fill="rgb(255,250,205)" stroke="rgb(255,250,205)" stroke-width="0mm" style="stroke-linecap:butt;stroke-linejoin:miter" />
+<text x="700.3" y="361.2"  font-family="Courier" font-size="4" fill="rgb(0,0,0)">pipe06_N03_N04</text>
+<text x="700.3" y="364"  font-family="Courier" font-size="4" fill="rgb(0,0,0)">Q=[-1100;1100]</text>
+</g>
+<g>
+<rect x="1070.8" y="237.9" width="40.8" height="5.6" fill="rgb(255,250,205)" stroke="rgb(255,250,205)" stroke-width="0mm" style="stroke-linecap:butt;stroke-linejoin:miter" />
+<text x="1070.8" y="240.7"  font-family="Courier" font-size="4" fill="rgb(0,0,0)">pipe07_N05_exit02</text>
+<text x="1070.8" y="243.5"  font-family="Courier" font-size="4" fill="rgb(0,0,0)">Q=[-1100;1100]</text>
+</g>
+<g>
+<rect x="1070.8" y="378.9" width="40.8" height="5.6" fill="rgb(255,250,205)" stroke="rgb(255,250,205)" stroke-width="0mm" style="stroke-linecap:butt;stroke-linejoin:miter" />
+<text x="1070.8" y="381.7"  font-family="Courier" font-size="4" fill="rgb(0,0,0)">pipe08_N05_exit03</text>
+<text x="1070.8" y="384.5"  font-family="Courier" font-size="4" fill="rgb(0,0,0)">Q=[-1100;1100]</text>
+</g>
+<g>
+<rect x="500.3" y="358.4" width="33.6" height="5.6" fill="rgb(255,250,205)" stroke="rgb(255,250,205)" stroke-width="0mm" style="stroke-linecap:butt;stroke-linejoin:miter" />
+<text x="500.3" y="361.2"  font-family="Courier" font-size="4" fill="rgb(0,0,0)">V01_N01_N03</text>
+<text x="500.3" y="364"  font-family="Courier" font-size="4" fill="rgb(0,0,0)">Q=[-1100;1100]</text>
+</g>
+<g>
+<rect x="300.3" y="308.4" width="36" height="5.6" fill="rgb(255,250,205)" stroke="rgb(255,250,205)" stroke-width="0mm" style="stroke-linecap:butt;stroke-linejoin:miter" />
+<text x="300.3" y="311.2"  font-family="Courier" font-size="4" fill="rgb(0,0,0)">CS01_exit03_N01</text>
+<text x="300.3" y="314"  font-family="Courier" font-size="4" fill="rgb(0,0,0)">Q=[0;1100]</text>
+</g>
+<g>
+<rect x="900.3" y="308.4" width="28.8" height="5.6" fill="rgb(255,250,205)" stroke="rgb(255,250,205)" stroke-width="0mm" style="stroke-linecap:butt;stroke-linejoin:miter" />
+<text x="900.3" y="311.2"  font-family="Courier" font-size="4" fill="rgb(0,0,0)">CS02_N04_N05</text>
+<text x="900.3" y="314"  font-family="Courier" font-size="4" fill="rgb(0,0,0)">Q=[0;1100]</text>
+</g>
+</g>
+<line x1="1000.1" y1="314.2" x2="1141.1" y2="455.2" fill="none" stroke="rgb(0,0,0)" stroke-width="2.822mm" style="stroke-linecap:butt;stroke-linejoin:miter" />
+<line x1="400.1" y1="314.2" x2="499.92" y2="364.11" fill="none" stroke="rgb(0,128,0)" stroke-width="2.822mm" style="stroke-linecap:butt;stroke-linejoin:miter" />
+<line x1="500.28" y1="364.29" x2="600.1" y2="414.2" fill="none" stroke="rgb(0,128,0)" stroke-width="2.822mm" style="stroke-linecap:butt;stroke-linejoin:miter" />
+<polygon fill="none" stroke="rgb(0,128,0)" stroke-width="2.822mm" style="stroke-linecap:butt;stroke-linejoin:miter"
+          points="499.83,364.29 500.01,363.93 500.19,364.47 500.37,364.11" />
+<line x1="200.1" y1="314.2" x2="299.9" y2="314.2" fill="none" stroke="rgb(255,0,0)" stroke-width="2.822mm" style="stroke-linecap:butt;stroke-linejoin:miter" />
+<line x1="300.3" y1="314.2" x2="400.1" y2="314.2" fill="none" stroke="rgb(255,0,0)" stroke-width="2.822mm" style="stroke-linecap:butt;stroke-linejoin:miter" />
+<circle cx="300.1" cy="314.2" r="0.2" fill="none" stroke="rgb(255,0,0)" stroke-width="2.822mm" style="stroke-linecap:butt;stroke-linejoin:miter" />
+<line x1="299.96" y1="314.06" x2="300.3" y2="314.2" fill="none" stroke="rgb(255,0,0)" stroke-width="2.822mm" style="stroke-linecap:butt;stroke-linejoin:miter" />
+<line x1="299.96" y1="314.34" x2="300.3" y2="314.2" fill="none" stroke="rgb(255,0,0)" stroke-width="2.822mm" style="stroke-linecap:butt;stroke-linejoin:miter" />
+<line x1="800.1" y1="314.2" x2="899.9" y2="314.2" fill="none" stroke="rgb(255,0,0)" stroke-width="2.822mm" style="stroke-linecap:butt;stroke-linejoin:miter" />
+<line x1="900.3" y1="314.2" x2="1000.1" y2="314.2" fill="none" stroke="rgb(255,0,0)" stroke-width="2.822mm" style="stroke-linecap:butt;stroke-linejoin:miter" />
+<circle cx="900.1" cy="314.2" r="0.2" fill="none" stroke="rgb(255,0,0)" stroke-width="2.822mm" style="stroke-linecap:butt;stroke-linejoin:miter" />
+<line x1="899.96" y1="314.06" x2="900.3" y2="314.2" fill="none" stroke="rgb(255,0,0)" stroke-width="2.822mm" style="stroke-linecap:butt;stroke-linejoin:miter" />
+<line x1="899.96" y1="314.34" x2="900.3" y2="314.2" fill="none" stroke="rgb(255,0,0)" stroke-width="2.822mm" style="stroke-linecap:butt;stroke-linejoin:miter" />
+<circle cx="0.1" cy="314.2" r="0.1" fill="rgb(255,127,0)" stroke="none" stroke-width="0" style="stroke-linecap:round;stroke-linejoin:round;" />
+<circle cx="200.1" cy="314.2" r="0.1" fill="rgb(255,127,0)" stroke="none" stroke-width="0" style="stroke-linecap:round;stroke-linejoin:round;" />
+<circle cx="600.1" cy="614.2" r="0.1" fill="rgb(255,127,0)" stroke="none" stroke-width="0" style="stroke-linecap:round;stroke-linejoin:round;" />
+<circle cx="600.1" cy="14.2" r="0.1" fill="rgb(127,255,0)" stroke="none" stroke-width="0" style="stroke-linecap:round;stroke-linejoin:round;" />
+<circle cx="1141.1" cy="173.2" r="0.1" fill="rgb(127,255,0)" stroke="none" stroke-width="0" style="stroke-linecap:round;stroke-linejoin:round;" />
+<circle cx="1141.1" cy="455.2" r="0.1" fill="rgb(127,255,0)" stroke="none" stroke-width="0" style="stroke-linecap:round;stroke-linejoin:round;" />
+<circle cx="400.1" cy="314.2" r="0.1" fill="rgb(220,220,220)" stroke="none" stroke-width="0" style="stroke-linecap:round;stroke-linejoin:round;" />
+<circle cx="600.1" cy="214.2" r="0.1" fill="rgb(220,220,220)" stroke="none" stroke-width="0" style="stroke-linecap:round;stroke-linejoin:round;" />
+<circle cx="600.1" cy="414.2" r="0.1" fill="rgb(220,220,220)" stroke="none" stroke-width="0" style="stroke-linecap:round;stroke-linejoin:round;" />
+<circle cx="800.1" cy="314.2" r="0.1" fill="rgb(220,220,220)" stroke="none" stroke-width="0" style="stroke-linecap:round;stroke-linejoin:round;" />
+<circle cx="1000.1" cy="314.2" r="0.1" fill="rgb(220,220,220)" stroke="none" stroke-width="0" style="stroke-linecap:round;stroke-linejoin:round;" />
+<g>
+<g>
+<rect x="0.3" y="300" width="26.4" height="14" fill="rgb(255,250,205)" stroke="rgb(255,250,205)" stroke-width="0mm" style="stroke-linecap:butt;stroke-linejoin:miter" />
+<text x="0.3" y="302.8"  font-family="Courier" font-size="4" fill="rgb(0,0,0)">entry01</text>
+<text x="0.3" y="305.6"  font-family="Courier" font-size="4" fill="rgb(0,0,0)">source</text>
+<text x="0.3" y="308.4"  font-family="Courier" font-size="4" fill="rgb(0,0,0)">Q=[160;160]</text>
+<text x="0.3" y="311.2"  font-family="Courier" font-size="4" fill="rgb(0,0,0)">p=[40;70]</text>
+<text x="0.3" y="314"  font-family="Courier" font-size="4" fill="rgb(0,0,0)">h=0</text>
+</g>
+<g>
+<rect x="600.3" y="202.8" width="21.6" height="11.2" fill="rgb(255,250,205)" stroke="rgb(255,250,205)" stroke-width="0mm" style="stroke-linecap:butt;stroke-linejoin:miter" />
+<text x="600.3" y="205.6"  font-family="Courier" font-size="4" fill="rgb(0,0,0)">N02</text>
+<text x="600.3" y="208.4"  font-family="Courier" font-size="4" fill="rgb(0,0,0)"></text>
+<text x="600.3" y="211.2"  font-family="Courier" font-size="4" fill="rgb(0,0,0)">p=[40;70]</text>
+<text x="600.3" y="214"  font-family="Courier" font-size="4" fill="rgb(0,0,0)">h=0</text>
+</g>
+<g>
+<rect x="600.3" y="402.8" width="21.6" height="11.2" fill="rgb(255,250,205)" stroke="rgb(255,250,205)" stroke-width="0mm" style="stroke-linecap:butt;stroke-linejoin:miter" />
+<text x="600.3" y="405.6"  font-family="Courier" font-size="4" fill="rgb(0,0,0)">N03</text>
+<text x="600.3" y="408.4"  font-family="Courier" font-size="4" fill="rgb(0,0,0)"></text>
+<text x="600.3" y="411.2"  font-family="Courier" font-size="4" fill="rgb(0,0,0)">p=[40;70]</text>
+<text x="600.3" y="414"  font-family="Courier" font-size="4" fill="rgb(0,0,0)">h=0</text>
+</g>
+<g>
+<rect x="800.3" y="302.8" width="21.6" height="11.2" fill="rgb(255,250,205)" stroke="rgb(255,250,205)" stroke-width="0mm" style="stroke-linecap:butt;stroke-linejoin:miter" />
+<text x="800.3" y="305.6"  font-family="Courier" font-size="4" fill="rgb(0,0,0)">N04</text>
+<text x="800.3" y="308.4"  font-family="Courier" font-size="4" fill="rgb(0,0,0)"></text>
+<text x="800.3" y="311.2"  font-family="Courier" font-size="4" fill="rgb(0,0,0)">p=[40;70]</text>
+<text x="800.3" y="314"  font-family="Courier" font-size="4" fill="rgb(0,0,0)">h=0</text>
+</g>
+<g>
+<rect x="1000.3" y="302.8" width="21.6" height="11.2" fill="rgb(255,250,205)" stroke="rgb(255,250,205)" stroke-width="0mm" style="stroke-linecap:butt;stroke-linejoin:miter" />
+<text x="1000.3" y="305.6"  font-family="Courier" font-size="4" fill="rgb(0,0,0)">N05</text>
+<text x="1000.3" y="308.4"  font-family="Courier" font-size="4" fill="rgb(0,0,0)"></text>
+<text x="1000.3" y="311.2"  font-family="Courier" font-size="4" fill="rgb(0,0,0)">p=[40;70]</text>
+<text x="1000.3" y="314"  font-family="Courier" font-size="4" fill="rgb(0,0,0)">h=0</text>
+</g>
+<g>
+<rect x="200.3" y="300" width="21.6" height="14" fill="rgb(255,250,205)" stroke="rgb(255,250,205)" stroke-width="0mm" style="stroke-linecap:butt;stroke-linejoin:miter" />
+<text x="200.3" y="302.8"  font-family="Courier" font-size="4" fill="rgb(0,0,0)">entry03</text>
+<text x="200.3" y="305.6"  font-family="Courier" font-size="4" fill="rgb(0,0,0)">source</text>
+<text x="200.3" y="308.4"  font-family="Courier" font-size="4" fill="rgb(0,0,0)">Q=[0;0]</text>
+<text x="200.3" y="311.2"  font-family="Courier" font-size="4" fill="rgb(0,0,0)">p=[40;70]</text>
+<text x="200.3" y="314"  font-family="Courier" font-size="4" fill="rgb(0,0,0)">h=0</text>
+</g>
+<g>
+<rect x="600.3" y="600" width="26.4" height="14" fill="rgb(255,250,205)" stroke="rgb(255,250,205)" stroke-width="0mm" style="stroke-linecap:butt;stroke-linejoin:miter" />
+<text x="600.3" y="602.8"  font-family="Courier" font-size="4" fill="rgb(0,0,0)">entry02</text>
+<text x="600.3" y="605.6"  font-family="Courier" font-size="4" fill="rgb(0,0,0)">source</text>
+<text x="600.3" y="608.4"  font-family="Courier" font-size="4" fill="rgb(0,0,0)">Q=[140;140]</text>
+<text x="600.3" y="611.2"  font-family="Courier" font-size="4" fill="rgb(0,0,0)">p=[40;70]</text>
+<text x="600.3" y="614"  font-family="Courier" font-size="4" fill="rgb(0,0,0)">h=0</text>
+</g>
+<g>
+<rect x="600.3" y="0" width="26.4" height="14" fill="rgb(255,250,205)" stroke="rgb(255,250,205)" stroke-width="0mm" style="stroke-linecap:butt;stroke-linejoin:miter" />
+<text x="600.3" y="2.8"  font-family="Courier" font-size="4" fill="rgb(0,0,0)">exit01</text>
+<text x="600.3" y="5.6"  font-family="Courier" font-size="4" fill="rgb(0,0,0)">sink</text>
+<text x="600.3" y="8.4"  font-family="Courier" font-size="4" fill="rgb(0,0,0)">Q=[100;100]</text>
+<text x="600.3" y="11.2"  font-family="Courier" font-size="4" fill="rgb(0,0,0)">p=[40;70]</text>
+<text x="600.3" y="14"  font-family="Courier" font-size="4" fill="rgb(0,0,0)">h=0</text>
+</g>
+<g>
+<rect x="1141.3" y="159" width="26.4" height="14" fill="rgb(255,250,205)" stroke="rgb(255,250,205)" stroke-width="0mm" style="stroke-linecap:butt;stroke-linejoin:miter" />
+<text x="1141.3" y="161.8"  font-family="Courier" font-size="4" fill="rgb(0,0,0)">exit02</text>
+<text x="1141.3" y="164.6"  font-family="Courier" font-size="4" fill="rgb(0,0,0)">sink</text>
+<text x="1141.3" y="167.4"  font-family="Courier" font-size="4" fill="rgb(0,0,0)">Q=[120;120]</text>
+<text x="1141.3" y="170.2"  font-family="Courier" font-size="4" fill="rgb(0,0,0)">p=[40;60]</text>
+<text x="1141.3" y="173"  font-family="Courier" font-size="4" fill="rgb(0,0,0)">h=0</text>
+</g>
+<g>
+<rect x="1141.3" y="441" width="21.6" height="14" fill="rgb(255,250,205)" stroke="rgb(255,250,205)" stroke-width="0mm" style="stroke-linecap:butt;stroke-linejoin:miter" />
+<text x="1141.3" y="443.8"  font-family="Courier" font-size="4" fill="rgb(0,0,0)">exit03</text>
+<text x="1141.3" y="446.6"  font-family="Courier" font-size="4" fill="rgb(0,0,0)">sink</text>
+<text x="1141.3" y="449.4"  font-family="Courier" font-size="4" fill="rgb(0,0,0)">Q=[80;80]</text>
+<text x="1141.3" y="452.2"  font-family="Courier" font-size="4" fill="rgb(0,0,0)">p=[40;60]</text>
+<text x="1141.3" y="455"  font-family="Courier" font-size="4" fill="rgb(0,0,0)">h=0</text>
+</g>
+<g>
+<rect x="400.3" y="302.8" width="21.6" height="11.2" fill="rgb(255,250,205)" stroke="rgb(255,250,205)" stroke-width="0mm" style="stroke-linecap:butt;stroke-linejoin:miter" />
+<text x="400.3" y="305.6"  font-family="Courier" font-size="4" fill="rgb(0,0,0)">N01</text>
+<text x="400.3" y="308.4"  font-family="Courier" font-size="4" fill="rgb(0,0,0)"></text>
+<text x="400.3" y="311.2"  font-family="Courier" font-size="4" fill="rgb(0,0,0)">p=[40;70]</text>
+<text x="400.3" y="314"  font-family="Courier" font-size="4" fill="rgb(0,0,0)">h=0</text>
+</g>
+</g>
+</svg>

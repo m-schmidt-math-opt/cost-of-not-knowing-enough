@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -->
+<!--                                                                                   -->
+<!--                  This file is part of the BMWi project 0328006                    -->
+<!--                      Technical Capacities of Gas Networks                         -->
+<!--                                                                                   -->
+<!-- Copyright (C) 2013                                                                -->
+<!-- FAU Erlangen-Nuremberg, HU Berlin, LU Hannover, TU Darmstadt,                     -->
+<!-- University Duisburg-Essen, WIAS Berlin, Zuse Institute Berlin                     -->
+<!-- Contact: Thorsten Koch (koch@zib.de)                                              -->
+<!-- All rights reserved.                                                              -->
+<!--                                                                                   -->
+<!-- This work is licensed under the Creative Commons Attribution 3.0 Unported License.-->
+<!-- To view a copy of this license, visit http://creativecommons.org/licenses/by/3.0/ -->
+<!-- or send a letter to Creative Commons, 444 Castro Street, Suite 900, Mountain View,-->
+<!-- California, 94041, USA.                                                           -->
+<!--                                                                                   -->
+<!--                         Please note that you have to cite                         -->
+<!-- Pfetsch et al. (2012) "Validation of Nominations in Gas Network Optimization:     -->
+<!-- Models, Methods, and Solutions", ZIB-Report 12-41                                 -->
+<!--                               if you use this data                                -->
+<!--                                                                                   -->
+<!-- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -->
+
+
+<boundaryValue xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+               xmlns="http://gaslib.zib.de/Gas"
+               xsi:schemaLocation="http://gaslib.zib.de/Gas Scenario.xsd"
+               xmlns:framework="http://gaslib.zib.de/Framework">
+
+  <scenario id="GasLib_11_scenario">
+
+    <node type="entry" id="entry01">
+      <flow bound="lower" value="160.00" unit="1000m_cube_per_hour"/>
+      <flow bound="upper" value="160.00" unit="1000m_cube_per_hour"/>
+    </node>
+
+    <node type="entry" id="entry02">
+      <flow bound="lower" value="140.00" unit="1000m_cube_per_hour"/>
+      <flow bound="upper" value="140.00" unit="1000m_cube_per_hour"/>
+    </node>
+
+    <node type="entry" id="entry03">
+      <flow bound="lower" value="0.00" unit="1000m_cube_per_hour"/>
+      <flow bound="upper" value="0.00" unit="1000m_cube_per_hour"/>
+    </node>
+
+    <node type="exit" id="exit01">
+      <flow bound="lower" value="100.00" unit="1000m_cube_per_hour"/>
+      <flow bound="upper" value="100.00" unit="1000m_cube_per_hour"/>
+    </node>
+
+    <node type="exit" id="exit02">
+      <flow bound="lower" value="120.00" unit="1000m_cube_per_hour"/>
+      <flow bound="upper" value="120.00" unit="1000m_cube_per_hour"/>
+    </node>
+
+    <node type="exit" id="exit03">
+      <flow bound="lower" value="80.00" unit="1000m_cube_per_hour"/>
+      <flow bound="upper" value="80.00" unit="1000m_cube_per_hour"/>
+    </node>
+
+  </scenario>
+
+</boundaryValue>

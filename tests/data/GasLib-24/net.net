@@ -1,0 +1,416 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -->
+<!--                                                                                   -->
+<!--                  This file is part of the BMWi project 0328006                    -->
+<!--                      Technical Capacities of Gas Networks                         -->
+<!--                                                                                   -->
+<!-- Copyright (C) 2013                                                                -->
+<!-- FAU Erlangen-Nuremberg, HU Berlin, LU Hannover, TU Darmstadt,                     -->
+<!-- University Duisburg-Essen, WIAS Berlin, Zuse Institute Berlin                     -->
+<!-- Contact: Thorsten Koch (koch@zib.de)                                              -->
+<!-- All rights reserved.                                                              -->
+<!--                                                                                   -->
+<!-- This work is licensed under the Creative Commons Attribution 3.0 Unported License.-->
+<!-- To view a copy of this license, visit http://creativecommons.org/licenses/by/3.0/ -->
+<!-- or send a letter to Creative Commons, 444 Castro Street, Suite 900, Mountain View,-->
+<!-- California, 94041, USA.                                                           -->
+<!--                                                                                   -->
+<!--                         Please note that you have to cite                         -->
+<!-- Pfetsch et al. (2012) "Validation of Nominations in Gas Network Optimization:     -->
+<!-- Models, Methods, and Solutions", ZIB-Report 12-41                                 -->
+<!--                               if you use this data                                -->
+<!--                                                                                   -->
+<!-- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -->
+
+
+<network xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xmlns="http://gaslib.zib.de/Gas"
+         xsi:schemaLocation="http://gaslib.zib.de/Gas Gas.xsd"
+         xmlns:framework="http://gaslib.zib.de/Framework">
+  <framework:information>
+    <framework:title>GasLib_24</framework:title>
+    <framework:type>gas</framework:type>
+    <framework:date>2017-09-03</framework:date>
+    <framework:documentation>Gas network with 24 nodes.</framework:documentation>
+  </framework:information>
+  <framework:nodes>
+
+    <source id="entry03" x="-100" y="500">
+      <height value="200.0"/>
+      <pressureMin unit="bar" value="30.0"/>
+      <pressureMax unit="bar" value="70.0"/>
+      <flowMin unit="1000m_cube_per_hour" value="50.0"/>
+      <flowMax unit="1000m_cube_per_hour" value="738.0"/>
+      <gasTemperature unit="Celsius" value="10.0"/>
+      <calorificValue  value="37" unit="MJ_per_m_cube"/>
+      <normDensity value="0.785" unit="kg_per_m_cube"/>
+      <coefficient-A-heatCapacity  value="32.23"/>
+      <coefficient-B-heatCapacity  value="-0.01"/>
+      <coefficient-C-heatCapacity  value="0"/>
+      <molarMass  value="19.5" unit="kg_per_kmol"/>
+      <pseudocriticalPressure  value="44.5" unit="bar"/>
+      <pseudocriticalTemperature  value="190" unit="K"/>
+    </source>
+
+    <source id="entry01" x="-200" y="300">
+      <height value="200.0"/>
+      <pressureMin unit="bar" value="30.0"/>
+      <pressureMax unit="bar" value="70.0"/>
+      <flowMin unit="1000m_cube_per_hour" value="50.0"/>
+      <flowMax unit="1000m_cube_per_hour" value="738.0"/>
+      <gasTemperature unit="Celsius" value="10.0"/>
+      <calorificValue  value="36.45436706542981" unit="MJ_per_m_cube"/>
+      <normDensity value="0.785" unit="kg_per_m_cube"/>
+      <coefficient-A-heatCapacity  value="31.71"/>
+      <coefficient-B-heatCapacity  value="-0.01"/>
+      <coefficient-C-heatCapacity  value="0"/>
+      <molarMass  value="19.5" unit="kg_per_kmol"/>
+      <pseudocriticalPressure  value="44.9160957336426" unit="bar"/>
+      <pseudocriticalTemperature  value="188.549758911133" unit="K"/>
+    </source>
+
+    <source id="entry02" x="-100" y="400">
+      <height value="200.0"/>
+      <pressureMin unit="bar" value="30.0"/>
+      <pressureMax unit="bar" value="70.0"/>
+      <flowMin unit="1000m_cube_per_hour" value="50.0"/>
+      <flowMax unit="1000m_cube_per_hour" value="720.0"/>
+      <gasTemperature unit="Celsius" value="10.0"/>
+      <calorificValue  value="36.45436706542981" unit="MJ_per_m_cube"/>
+      <normDensity value="0.785" unit="kg_per_m_cube"/>
+      <coefficient-A-heatCapacity  value="31.82"/>
+      <coefficient-B-heatCapacity  value="-0.01"/>
+      <coefficient-C-heatCapacity  value="0"/>
+      <molarMass  value="18.5674" unit="kg_per_kmol"/>
+      <pseudocriticalPressure  value="44.9160957336426" unit="bar"/>
+      <pseudocriticalTemperature  value="188.549758911133" unit="K"/>
+    </source>
+
+    <sink id="exit01" x="250" y="400">
+      <height value="200.0"/>
+      <pressureMin unit="bar" value="30.0"/>
+      <pressureMax unit="bar" value="70.0"/>
+      <flowMin unit="1000m_cube_per_hour" value="100.0"/>
+      <flowMax unit="1000m_cube_per_hour" value="900.0"/>
+    </sink>
+
+    <sink id="exit02" x="500" y="100">
+      <height value="200.0"/>
+      <pressureMin unit="bar" value="30.0"/>
+      <pressureMax unit="bar" value="35.0"/>
+      <flowMin unit="1000m_cube_per_hour" value="100.0"/>
+      <flowMax unit="1000m_cube_per_hour" value="900.0"/>
+    </sink>
+
+    <sink id="exit03" x="700" y="400">
+      <height value="200.0"/>
+      <pressureMin unit="bar" value="55.0"/>
+      <pressureMax unit="bar" value="70.0"/>
+      <flowMin unit="1000m_cube_per_hour" value="100.0"/>
+      <flowMax unit="1000m_cube_per_hour" value="900.0"/>
+    </sink>
+
+    <sink id="exit04" x="700" y="200">
+      <height value="200.0"/>
+      <pressureMin unit="bar" value="55.0"/>
+      <pressureMax unit="bar" value="70.0"/>
+      <flowMin unit="1000m_cube_per_hour" value="100.0"/>
+      <flowMax unit="1000m_cube_per_hour" value="900.0"/>
+    </sink>
+
+    <sink id="exit05" x="125" y="100">
+      <height value="200.0"/>
+      <pressureMin unit="bar" value="30.0"/>
+      <pressureMax unit="bar" value="70.0"/>
+      <flowMin unit="1000m_cube_per_hour" value="100.0"/>
+      <flowMax unit="1000m_cube_per_hour" value="900.0"/>
+    </sink>
+
+    <innode id="N04" x="-50" y="300">
+      <height value="200.0"/>
+      <pressureMin unit="bar" value="30.0"/>
+      <pressureMax unit="bar" value="70.0"/>
+    </innode>
+
+    <innode id="N05" x="0" y="300">
+      <height value="200.0"/>
+      <pressureMin unit="bar" value="30.0"/>
+      <pressureMax unit="bar" value="70.0"/>
+    </innode>
+
+    <innode id="N05a" x="75" y="300">
+      <height value="200.0"/>
+      <pressureMin unit="bar" value="30.0"/>
+      <pressureMax unit="bar" value="70.0"/>
+    </innode>
+
+    <innode id="N05b" x="175" y="300">
+      <height value="200.0"/>
+      <pressureMin unit="bar" value="30.0"/>
+      <pressureMax unit="bar" value="70.0"/>
+    </innode>
+
+    <innode id="N05c" x="125" y="400">
+      <height value="200.0"/>
+      <pressureMin unit="bar" value="30.0"/>
+      <pressureMax unit="bar" value="70.0"/>
+    </innode>
+
+    <innode id="N05d" x="125" y="200">
+      <height value="200.0"/>
+      <pressureMin unit="bar" value="30.0"/>
+      <pressureMax unit="bar" value="70.0"/>
+    </innode>
+
+    <innode id="N06" x="250" y="300">
+      <height value="200.0"/>
+      <pressureMin unit="bar" value="30.0"/>
+      <pressureMax unit="bar" value="70.0"/>
+    </innode>
+
+    <innode id="N08" x="300" y="300">
+      <height value="200.0"/>
+      <pressureMin unit="bar" value="30.0"/>
+      <pressureMax unit="bar" value="70.0"/>
+    </innode>
+
+    <innode id="N09" x="350" y="300">
+      <height value="200.0"/>
+      <pressureMin unit="bar" value="30.0"/>
+      <pressureMax unit="bar" value="70.0"/>
+    </innode>
+
+    <innode id="N10" x="425" y="400">
+      <height value="200.0"/>
+      <pressureMin unit="bar" value="30.0"/>
+      <pressureMax unit="bar" value="70.0"/>
+    </innode>
+
+    <innode id="N11" x="425" y="200">
+      <height value="200.0"/>
+      <pressureMin unit="bar" value="30.0"/>
+      <pressureMax unit="bar" value="70.0"/>
+    </innode>
+
+    <innode id="N13" x="500" y="300">
+      <height value="200.0"/>
+      <pressureMin unit="bar" value="30.0"/>
+      <pressureMax unit="bar" value="70.0"/>
+    </innode>
+
+    <innode id="N16" x="575" y="300">
+      <height value="200.0"/>
+      <pressureMin unit="bar" value="30.0"/>
+      <pressureMax unit="bar" value="70.0"/>
+    </innode>
+
+  </framework:nodes>
+
+  <framework:connections>
+
+    <pipe from="entry03" id="L101" to="entry02">
+      <flowMin unit="1000m_cube_per_hour" value="180.56"/>
+      <flowMax unit="1000m_cube_per_hour" value="180.56"/>
+      <length unit="km" value="50"/>
+      <diameter unit="m" value="1.1"/>
+      <roughness unit="mm" value="0.01"/>
+      <heatTransferCoefficient unit="W_per_m_square_per_K" value="2.0"/>
+    </pipe>
+
+    <pipe from="N05d" id="L102" to="exit05">
+      <flowMin unit="1000m_cube_per_hour" value="100.0"/>
+      <flowMax unit="1000m_cube_per_hour" value="100.0"/>
+      <length unit="km" value="50"/>
+      <diameter unit="m" value="1.1"/>
+      <roughness unit="mm" value="0.01"/>
+      <heatTransferCoefficient unit="W_per_m_square_per_K" value="2.0"/>
+    </pipe>
+
+    <pipe from="entry01" id="L01" to="entry02">
+      <flowMin unit="1000m_cube_per_hour" value="226.614"/>
+      <flowMax unit="1000m_cube_per_hour" value="226.614"/>
+      <length unit="km" value="50"/>
+      <diameter unit="m" value="1.1"/>
+      <roughness unit="mm" value="0.01"/>
+      <heatTransferCoefficient unit="W_per_m_square_per_K" value="2.0"/>
+    </pipe>
+
+    <pipe from="entry02" id="L04" to="N04">
+      <flowMin unit="1000m_cube_per_hour" value="544.324"/>
+      <flowMax unit="1000m_cube_per_hour" value="544.324"/>
+      <!--<length unit="km" value="50"/>-->
+      <length unit="m" value="10"/>
+      <diameter unit="m" value="2.1"/>
+      <roughness unit="mm" value="0.01"/>
+      <heatTransferCoefficient unit="W_per_m_square_per_K" value="2.0"/>
+    </pipe>
+
+    <pipe from="N05" id="L07a" to="N05a">
+      <flowMin unit="1000m_cube_per_hour" value="544.324"/>
+      <flowMax unit="1000m_cube_per_hour" value="544.324"/>
+      <length unit="km" value="30"/>
+      <diameter unit="m" value="0.9"/>
+      <roughness unit="mm" value="0.01"/>
+      <heatTransferCoefficient unit="W_per_m_square_per_K" value="2.0"/>
+    </pipe>
+
+    <pipe from="N05a" id="L07b" to="N05c">
+      <flowMin unit="1000m_cube_per_hour" value="0.0"/>
+      <flowMax unit="1000m_cube_per_hour" value="544.324"/>
+      <length unit="km" value="30"/>
+      <diameter unit="m" value="0.9"/>
+      <roughness unit="mm" value="0.01"/>
+      <heatTransferCoefficient unit="W_per_m_square_per_K" value="2.0"/>
+    </pipe>
+
+    <pipe from="N05c" id="L07d" to="N05b">
+      <flowMin unit="1000m_cube_per_hour" value="0.0"/>
+      <flowMax unit="1000m_cube_per_hour" value="544.324"/>
+      <length unit="km" value="30"/>
+      <diameter unit="m" value="0.9"/>
+      <roughness unit="mm" value="0.01"/>
+      <heatTransferCoefficient unit="W_per_m_square_per_K" value="2.0"/>
+    </pipe>
+
+    <pipe from="N05a" id="L07c" to="N05d">
+      <flowMin unit="1000m_cube_per_hour" value="0.0"/>
+      <flowMax unit="1000m_cube_per_hour" value="544.324"/>
+      <length unit="km" value="30"/>
+      <diameter unit="m" value="0.9"/>
+      <roughness unit="mm" value="0.01"/>
+      <heatTransferCoefficient unit="W_per_m_square_per_K" value="2.0"/>
+    </pipe>
+
+    <pipe from="N05d" id="L07e" to="N05b">
+      <flowMin unit="1000m_cube_per_hour" value="0.0"/>
+      <flowMax unit="1000m_cube_per_hour" value="444.324"/>
+      <length unit="km" value="30"/>
+      <diameter unit="m" value="0.9"/>
+      <roughness unit="mm" value="0.01"/>
+      <heatTransferCoefficient unit="W_per_m_square_per_K" value="2.0"/>
+    </pipe>
+
+    <pipe from="N05b" id="L07f" to="N06">
+      <flowMin unit="1000m_cube_per_hour" value="444.324"/>
+      <flowMax unit="1000m_cube_per_hour" value="444.324"/>
+      <length unit="km" value="30"/>
+      <diameter unit="m" value="0.9"/>
+      <roughness unit="mm" value="0.01"/>
+      <heatTransferCoefficient unit="W_per_m_square_per_K" value="2.0"/>
+    </pipe>
+
+    <pipe from="N06" id="L08" to="exit01">
+      <flowMin unit="1000m_cube_per_hour" value="100.0"/>
+      <flowMax unit="1000m_cube_per_hour" value="100.0"/>
+      <length unit="km" value="30"/>
+      <diameter unit="m" value="0.9"/>
+      <roughness unit="mm" value="0.01"/>
+      <heatTransferCoefficient unit="W_per_m_square_per_K" value="2.0"/>
+    </pipe>
+    <pipe from="N06" id="L09" to="N08">
+      <flowMin unit="1000m_cube_per_hour" value="344.324"/>
+      <flowMax unit="1000m_cube_per_hour" value="344.324"/>
+      <length unit="km" value="30"/>
+      <diameter unit="m" value="0.9"/>
+      <roughness unit="mm" value="0.01"/>
+      <heatTransferCoefficient unit="W_per_m_square_per_K" value="2.0"/>
+    </pipe>
+
+    <pipe from="N09" id="L12" to="N10">
+      <flowMin unit="1000m_cube_per_hour" value="0.0"/>
+      <flowMax unit="1000m_cube_per_hour" value="344.324"/>
+      <length unit="km" value="100"/>
+      <diameter unit="m" value="0.9"/>
+      <roughness unit="mm" value="0.012"/>
+      <heatTransferCoefficient unit="W_per_m_square_per_K" value="2.0"/>
+    </pipe>
+
+    <pipe from="N10" id="L13" to="N13">
+      <flowMin unit="1000m_cube_per_hour" value="0.0"/>
+      <flowMax unit="1000m_cube_per_hour" value="344.324"/>
+      <length unit="km" value="50"/>
+      <diameter unit="m" value="0.9"/>
+      <roughness unit="mm" value="0.012"/>
+      <heatTransferCoefficient unit="W_per_m_square_per_K" value="2.0"/>
+    </pipe>
+
+    <pipe from="N09" id="L14" to="N11">
+      <flowMin unit="1000m_cube_per_hour" value="0.0"/>
+      <flowMax unit="1000m_cube_per_hour" value="344.324"/>
+      <length unit="km" value="100"/>
+      <diameter unit="m" value="0.85"/>
+      <roughness unit="mm" value="0.012"/>
+      <heatTransferCoefficient unit="W_per_m_square_per_K" value="2.0"/>
+    </pipe>
+
+    <pipe from="N11" id="L15" to="N13">
+      <flowMin unit="1000m_cube_per_hour" value="0.0"/>
+      <flowMax unit="1000m_cube_per_hour" value="244.324"/>
+      <length unit="km" value="50"/>
+      <diameter unit="m" value="0.85"/>
+      <roughness unit="mm" value="0.012"/>
+      <heatTransferCoefficient unit="W_per_m_square_per_K" value="2.0"/>
+    </pipe>
+
+    <pipe from="N11" id="L16" to="exit02">
+      <flowMin unit="1000m_cube_per_hour" value="100.0"/>
+      <flowMax unit="1000m_cube_per_hour" value="100.0"/>
+      <length unit="km" value="30"/>
+      <diameter unit="m" value="0.5"/>
+      <roughness unit="mm" value="0.01"/>
+      <heatTransferCoefficient unit="W_per_m_square_per_K" value="2.0"/>
+    </pipe>
+
+    <pipe from="N16" id="L19" to="exit03">
+      <flowMin unit="1000m_cube_per_hour" value="122.162"/>
+      <flowMax unit="1000m_cube_per_hour" value="122.162"/>
+      <length unit="km" value="50"/>
+      <diameter unit="m" value="1.1"/>
+      <roughness unit="mm" value="0.01"/>
+      <heatTransferCoefficient unit="W_per_m_square_per_K" value="2.0"/>
+    </pipe>
+
+    <pipe from="N16" id="L20" to="exit04">
+      <flowMin unit="1000m_cube_per_hour" value="122.162"/>
+      <flowMax unit="1000m_cube_per_hour" value="122.162"/>
+      <length unit="km" value="50"/>
+      <diameter unit="m" value="1.1"/>
+      <roughness unit="mm" value="0.01"/>
+      <heatTransferCoefficient unit="W_per_m_square_per_K" value="2.0"/>
+    </pipe>
+
+    <compressorStation id="CS1" from="N04" to="N05" fuelGasVertex="N05">
+      <flowMin value="544.324" unit="1000m_cube_per_hour"/>
+      <flowMax value="544.324" unit="1000m_cube_per_hour"/>
+      <dragFactorIn value="18.0"/>
+      <diameterIn value="900.0" unit="mm"/>
+      <dragFactorOut value="16.0"/>
+      <diameterOut value="0.9" unit="m"/>
+      <pressureInMin value="35.0" unit="bar"/>
+      <pressureOutMax value="72.0" unit="bar"/>
+    </compressorStation>
+
+    <compressorStation id="CS2" from="N08" to="N09" fuelGasVertex="N09">
+      <flowMin value="344.324" unit="1000m_cube_per_hour"/>
+      <flowMax value="344.324" unit="1000m_cube_per_hour"/>
+      <dragFactorIn value="18.0"/>
+      <diameterIn value="900.0" unit="mm"/>
+      <pressureLossOut value="2.0" unit="bar"/>
+      <pressureInMin value="30.0" unit="bar"/>
+      <pressureOutMax value="70.0" unit="bar"/>
+    </compressorStation>
+
+    <compressorStation id="CS3" from="N13" to="N16" fuelGasVertex="N16">
+      <flowMin value="244.324" unit="1000m_cube_per_hour"/>
+      <flowMax value="244.324" unit="1000m_cube_per_hour"/>
+      <pressureLossIn value="1.0" unit="bar"/>
+      <dragFactorOut value="16.0"/>
+      <diameterOut value="0.9" unit="m"/>
+      <pressureInMin value="30.0" unit="bar"/>
+      <pressureOutMax value="65.0" unit="bar"/>
+    </compressorStation>
+
+  </framework:connections>
+
+</network>
